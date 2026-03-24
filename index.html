@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagadeeswaran S | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans leading-relaxed scroll-smooth">
+
+    <nav class="fixed w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold tracking-tighter text-blue-400 italic underline decoration-blue-500/30">JS</span>
+            <div class="space-x-8 text-sm font-medium">
+                <a href="#projects" class="hover:text-blue-400 transition">Software</a>
+                <a href="#editing" class="hover:text-blue-400 transition">Editing</a>
+                <a href="#academics" class="hover:text-blue-400 transition">Academics</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+<header class="pt-32 pb-16 px-6 max-w-5xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12">
+        
+        <div class="flex-1 text-center md:text-left">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-4 leading-tight">
+                Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Jagadeeswaran S</span>.
+            </h1>
+            <p class="text-xl text-slate-400 mb-8 leading-relaxed italic">
+                "I am an AI & Data Science strategist who bridges the gap between complex data and user-centric design. By combining Pythonic logic with Modern Vibe Coding, I build intelligent applications with 10x efficiency."
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jagadeessuresh@gmail.com" target="_blank" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold transition text-center">Get in touch</a>
+                <a href="#projects" class="border border-slate-700 hover:bg-slate-800 px-6 py-3 rounded-lg font-semibold transition text-center">View My Work</a>
+            </div>
+        </div>
+
+        <div class="flex-shrink-0">
+            <div class="relative group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                
+                <img 
+                    src="Mine.jpg" 
+                    alt="Jagadeeswaran S" 
+                    class="relative w-64 h-80 rounded-2xl object-cover border-2 border-slate-700 shadow-2xl transition transform group-hover:scale-[1.02] grayscale hover:grayscale-0 duration-500"
+                >
+            </div>
+        </div>
+
+    </header>
+
+<section id="projects" class="py-20 px-4 md:px-12 max-w-7xl mx-auto overflow-hidden">
+    <h2 class="text-3xl font-bold mb-12 flex items-center gap-3">
+        <i class="fas fa-code text-blue-400"></i> Software Projects
+    </h2>
+
+    <div class="relative group">
+        <button onclick="scrollContainer('project-container', 'left')" 
+                class="absolute -left-2 md:-left-6 top-1/2 -translate-y-1/2 z-20 p-4 bg-slate-900/90 border border-slate-700 rounded-full text-white hover:border-blue-500 hover:text-blue-400 transition-all opacity-0 group-hover:opacity-100 hidden md:block shadow-2xl">
+            <i class="fas fa-chevron-left text-xl"></i>
+        </button>
+
+        <button onclick="scrollContainer('project-container', 'right')" 
+                class="absolute -right-2 md:-right-6 top-1/2 -translate-y-1/2 z-20 p-4 bg-slate-900/90 border border-slate-700 rounded-full text-white hover:border-blue-500 hover:text-blue-400 transition-all opacity-0 group-hover:opacity-100 hidden md:block shadow-2xl">
+            <i class="fas fa-chevron-right text-xl"></i>
+        </button>
+
+        <div id="project-container" class="flex flex-nowrap overflow-x-auto gap-6 pb-10 snap-x snap-mandatory scroll-smooth" style="scrollbar-width: none; -ms-overflow-style: none;">
+            
+            <div class="flex-shrink-0 w-[90%] md:w-[calc(50%-12px)] snap-start bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all flex flex-col justify-between min-h-[350px]">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fab fa-github text-3xl text-slate-400"></i>
+                        <span class="text-xs font-mono bg-blue-500/10 text-blue-400 px-2 py-1 rounded">IoT &middot; Python &middot; API</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Dynamic Speed Limiting System</h3>
+                    <p class="text-slate-400 text-sm line-clamp-4 leading-relaxed">
+                        By using Vibe coding Engineered an IoT-enabled Weather-Adaptive Speed Governance System that retrieves real-time atmospheric data—including precipitation levels, temperature, and visibility—via OpenWeather API. The system dynamically calculates safe velocity thresholds for hazardous conditions like heavy rain or dense mist, communicating real-time speed mandates to drivers via an integrated Digital Signage interface.
+                    </p>
+                </div>
+                <a href="#" class="text-blue-400 hover:underline text-sm font-semibold mt-6">Live Demo →</a>
+            </div>
+
+            <div class="flex-shrink-0 w-[90%] md:w-[calc(50%-12px)] snap-start bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all flex flex-col justify-between min-h-[350px]">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fab fa-github text-3xl text-slate-400"></i>
+                        <span class="text-xs font-mono bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded">NoSQL &middot; Geolocation API &middot; FCM</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">No Hunger</h3>
+                    <p class="text-slate-400 text-sm line-clamp-4 leading-relaxed">
+                        By using vibe coding Developed 'No Hunger,' a dual-model digital ecosystem designed to combat food waste by connecting high-surplus venues (hotels, banquet halls) with food-insecure regions. The platform utilizes an intelligent Real-Time Notification Engine to alert nearby organizations of available surplus. It features a flexible pricing logic that allows vendors to list food at steeply discounted 'Flash Offer' prices for low-income consumers or provide it at zero cost for charitable homages and NGOs
+                    </p>
+                </div>
+                <a href="#" class="text-blue-400 hover:underline text-sm font-semibold mt-6">Live Demo →</a>
+            </div>
+
+            <div class="flex-shrink-0 w-[90%] md:w-[calc(50%-12px)] snap-start bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all flex flex-col justify-between min-h-[350px]">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fab fa-github text-3xl text-slate-400"></i>
+                        <span class="text-xs font-mono bg-purple-500/10 text-purple-400 px-2 py-1 rounded">TensorFlow &middot; OpenCV &middot; CNN</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Agri-Guard</h3>
+                    <p class="text-slate-400 text-sm line-clamp-4 leading-relaxed">
+                        By using vibe coding Developed 'Agri-Guard,' an AI-driven diagnostic tool designed to empower farmers with real-time crop health monitoring. Utilizing a Custom CNN (Convolutional Neural Network) model, the app analyzes leaf imagery to identify pathogens, pests, and nutrient deficiencies with high accuracy. It provides immediate organic and chemical treatment recommendations, integrated with a localized weather-alert system to optimize pesticide application windows
+                    </p>
+                </div>
+                <a href="#" class="text-blue-400 hover:underline text-sm font-semibold mt-6">Live Demo →</a>
+            </div>
+
+            <div class="flex-shrink-0 w-[90%] md:w-[calc(50%-12px)] snap-start bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all flex flex-col justify-between min-h-[350px]">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fab fa-github text-3xl text-slate-400"></i>
+                        <span class="text-xs font-mono bg-blue-500/10 text-blue-400 px-2 py-1 rounded">MQTT protocol &middot; Data Visualization</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">MoldMate</h3>
+                    <p class="text-slate-400 text-sm line-clamp-4 leading-relaxed">
+                        By using Vibe coding and IoT Engineered 'MouldMate,' an Industrial IoT (IIoT) monitoring solution designed to optimize injection moulding cycles. The system utilizes high-sensitivity thermal and pressure sensors to capture real-time telemetry from active moulds. By applying statistical process control and threshold-based anomaly detection, MouldMate predicts potential part defects (like warping or short-shots) before they occur, significantly reducing material waste and extending the lifespan of expensive industrial tooling
+                    </p>
+                </div>
+                <a href="#" class="text-blue-400 hover:underline text-sm font-semibold mt-6">Live Demo →</a>
+            </div>
+
+            <div class="flex-shrink-0 w-[90%] md:w-[calc(50%-12px)] snap-start bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all flex flex-col justify-between min-h-[350px]">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fab fa-github text-3xl text-slate-400"></i>
+                        <span class="text-xs font-mono bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded">Scikit-Learn &middot; Numpy &middot; Matplotlib</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Weather Predictor</h3>
+                    <p class="text-slate-400 text-sm line-clamp-4 leading-relaxed">
+                        By Vibe coding Developed a high-accuracy Weather Forecasting Engine utilizing Historical Climate Data and Machine Learning algorithms. The project involves a sophisticated Data Pipeline that cleans and preprocesses multi-variable datasets (Temperature, Humidity, Wind Speed, and Atmospheric Pressure). By implementing a Random Forest Regressor and evaluating performance with R² and Mean Absolute Error (MAE) metrics, the model provides localized 24-hour weather projections with an optimized accuracy threshold.
+                    </p>
+                </div>
+                <a href="#" class="text-blue-400 hover:underline text-sm font-semibold mt-6">Live Demo →</a>
+            </div>
+
+            <div class="flex-shrink-0 w-[90%] md:w-[calc(50%-12px)] snap-start bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all flex flex-col justify-between min-h-[350px]">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fab fa-github text-3xl text-slate-400"></i>
+                        <span class="text-xs font-mono bg-purple-500/10 text-purple-400 px-2 py-1 rounded">Geo-Fencing &middot; QR serialization &middot; Cloud</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Mattress Tracking</h3>
+                    <p class="text-slate-400 text-sm line-clamp-4 leading-relaxed">
+                        Developed a robust 'Mattress Delivery Tracking & Verification System' to eliminate last-mile delivery errors and theft. The platform utilizes encrypted QR-Code Authentication and Geo-Fencing to ensure that high-value deliveries are only marked as 'Complete' when the driver is within a 10-meter radius of the correct GPS coordinates. By integrating a real-time Image-Capture API for proof-of-delivery, the system provides an immutable digital paper trail for both the warehouse and the customer
+                    </p>
+                </div>
+                <a href="#" class="text-blue-400 hover:underline text-sm font-semibold mt-6">Live Demo →</a>
+            </div>
+
+            <div class="flex-shrink-0 w-[90%] md:w-[calc(50%-12px)] snap-start bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all flex flex-col justify-between min-h-[350px]">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fab fa-github text-3xl text-slate-400"></i>
+                        <span class="text-xs font-mono bg-blue-500/10 text-blue-400 px-2 py-1 rounded">SMOTE &middot; XGBoost &middot; Scikit-Learn</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Credit Card fraud detection</h3>
+                    <p class="text-slate-400 text-sm line-clamp-4 leading-relaxed">
+                        Developed an end-to-end Machine Learning pipeline for Real-Time Credit Card Fraud Detection. The project addresses the extreme class imbalance inherent in financial data by implementing SMOTE (Synthetic Minority Over-sampling Technique). Utilizing an XGBoost Classifier and Random Forest Ensemble, the model identifies anomalous transaction patterns based on PCA-transformed features. Evaluated using Precision-Recall curves and AUPRC (Area Under Precision-Recall Curve) to ensure high sensitivity to fraudulent activity while minimizing 'False Positives' for legitimate customers
+                    </p>
+                </div>
+                <a href="#" class="text-blue-400 hover:underline text-sm font-semibold mt-6">Live Demo →</a>
+            </div>
+
+            <div class="flex-shrink-0 w-[90%] md:w-[calc(50%-12px)] snap-start bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all flex flex-col justify-between min-h-[350px]">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fab fa-github text-3xl text-slate-400"></i>
+                        <span class="text-xs font-mono bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded">LSTMs &middot; YFinance app &middot; Pandas</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Stock Market Prediction</h3>
+                    <p class="text-slate-400 text-sm line-clamp-4 leading-relaxed">
+                        By vibecoding Engineered an Advanced Stock Market Forecasting Engine using Recurrent Neural Networks (RNNs). The project implements a Long Short-Term Memory (LSTM) architecture to capture temporal dependencies and 'momentum' in historical price action. Features a comprehensive data pipeline that performs Min-Max Scaling and Rolling-Window transformation on multi-variate datasets (Open, High, Low, Close, Volume). The model is optimized using the Adam optimizer and evaluated against Mean Squared Error (MSE) to predict short-term price fluctuations with high computational efficiency
+                    </p>
+                </div>
+                <a href="#" class="text-blue-400 hover:underline text-sm font-semibold mt-6">Live Demo →</a>
+            </div>
+
+            <div class="flex-shrink-0 w-[90%] md:w-[calc(50%-12px)] snap-start bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all flex flex-col justify-between min-h-[350px]">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fab fa-github text-3xl text-slate-400"></i>
+                        <span class="text-xs font-mono bg-purple-500/10 text-purple-400 px-2 py-1 rounded">Native &middot; Capacitor &middot; Monorepo</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Unified Platform</h3>
+                    <p class="text-slate-400 text-sm line-clamp-4 leading-relaxed">
+                        By using vibe coding Developed 'Agri-Guard,' an AI-driven diagnostic tool designed to empower farmers with real-time crop health monitoring. Utilizing a Custom CNN (Convolutional Neural Network) model, the app analyzes leaf imagery to identify pathogens, pests, and nutrient deficiencies with high accuracy. It provides immediate organic and chemical treatment recommendations, integrated with a localized weather-alert system to optimize pesticide application windows
+                    </p>
+                </div>
+                <a href="#" class="text-blue-400 hover:underline text-sm font-semibold mt-6">Live Demo →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="editing" class="py-20 bg-slate-950 px-6 overflow-hidden">
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 flex items-center gap-3">
+            <i class="fas fa-film text-emerald-400"></i> Video Production
+        </h2>
+
+        <div class="relative group">
+            
+            <button onclick="scrollContainer('video-container', 'left')" 
+                class="absolute -left-4 md:-left-12 top-1/2 -translate-y-1/2 z-10 p-4 bg-slate-900/90 border border-slate-800 rounded-full text-white hover:border-emerald-500 hover:text-emerald-400 transition-all opacity-0 group-hover:opacity-100 hidden md:block shadow-xl">
+                <i class="fas fa-chevron-left text-xl"></i>
+            </button>
+
+            <button onclick="scrollContainer('video-container', 'right')" 
+                class="absolute -right-4 md:-right-12 top-1/2 -translate-y-1/2 z-10 p-4 bg-slate-900/90 border border-slate-800 rounded-full text-white hover:border-emerald-500 hover:text-emerald-400 transition-all opacity-0 group-hover:opacity-100 hidden md:block shadow-xl">
+                <i class="fas fa-chevron-right text-xl"></i>
+            </button>
+
+            <div id="video-container" class="flex flex-nowrap overflow-x-auto gap-6 pb-8 snap-x snap-mandatory scroll-smooth" style="scrollbar-width: none; -ms-overflow-style: none;">
+                
+                <a href="vdo1.mp4" target="_blank" class="flex-shrink-0 w-[300px] md:w-[400px] aspect-video bg-slate-800 rounded-xl overflow-hidden relative group cursor-pointer border border-slate-800 hover:border-emerald-500 transition shadow-lg snap-center">
+                    <img src="TN1.jpg" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition" alt="Project Thumbnail">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition flex items-center justify-center">
+                        <i class="fas fa-play text-white text-3xl opacity-0 group-hover:opacity-100 transition"></i>
+                    </div>
+                    <div class="absolute inset-0 p-4 flex flex-col justify-end pointer-events-none">
+                        <p class="text-xs font-bold uppercase tracking-widest text-emerald-400">Social Media</p>
+                        <h4 class="font-bold text-white">Glimpse</h4>
+                    </div>
+                </a>
+
+                <a href="vdo2.mp4" target="_blank" class="flex-shrink-0 w-[300px] md:w-[400px] aspect-video bg-slate-800 rounded-xl overflow-hidden relative group cursor-pointer border border-slate-800 hover:border-emerald-500 transition shadow-lg snap-center">
+                    <img src="TN2.jpg" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition" alt="Project Thumbnail">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition flex items-center justify-center">
+                        <i class="fas fa-play text-white text-3xl opacity-0 group-hover:opacity-100 transition"></i>
+                    </div>
+                    <div class="absolute inset-0 p-4 flex flex-col justify-end pointer-events-none">
+                        <p class="text-xs font-bold uppercase tracking-widest text-emerald-400">Community</p>
+                        <h4 class="font-bold text-white">Project Promo 2k26</h4>
+                    </div>
+                </a>
+
+                <a href="vdo3.mp4" target="_blank" class="flex-shrink-0 w-[300px] md:w-[400px] aspect-video bg-slate-800 rounded-xl overflow-hidden relative group cursor-pointer border border-slate-800 hover:border-emerald-500 transition shadow-lg snap-center">
+                    <img src="TN3.jpg" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition" alt="Project Thumbnail">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition flex items-center justify-center">
+                        <i class="fas fa-play text-white text-3xl opacity-0 group-hover:opacity-100 transition"></i>
+                    </div>
+                    <div class="absolute inset-0 p-4 flex flex-col justify-end pointer-events-none">
+                        <p class="text-xs font-bold uppercase tracking-widest text-emerald-400">Social Media</p>
+                        <h4 class="font-bold text-white">Project TVK</h4>
+                    </div>
+                </a>
+
+                <a href="vdo4.mp4" target="_blank" class="flex-shrink-0 w-[300px] md:w-[400px] aspect-video bg-slate-800 rounded-xl overflow-hidden relative group cursor-pointer border border-slate-800 hover:border-emerald-500 transition shadow-lg snap-center">
+                    <img src="TN4.jpg" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition" alt="Project Thumbnail">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition flex items-center justify-center">
+                        <i class="fas fa-play text-white text-3xl opacity-0 group-hover:opacity-100 transition"></i>
+                    </div>
+                    <div class="absolute inset-0 p-4 flex flex-col justify-end pointer-events-none">
+                        <p class="text-xs font-bold uppercase tracking-widest text-emerald-400">Social Media</p>
+                        <h4 class="font-bold text-white">Thalapathy Audio Launch</h4>
+                    </div>
+                </a>
+
+                <a href="vdo5.mp4" target="_blank" class="flex-shrink-0 w-[300px] md:w-[400px] aspect-video bg-slate-800 rounded-xl overflow-hidden relative group cursor-pointer border border-slate-800 hover:border-emerald-500 transition shadow-lg snap-center">
+                    <img src="TN5.jpg" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition" alt="Project Thumbnail">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition flex items-center justify-center">
+                        <i class="fas fa-play text-white text-3xl opacity-0 group-hover:opacity-100 transition"></i>
+                    </div>
+                    <div class="absolute inset-0 p-4 flex flex-col justify-end pointer-events-none">
+                        <p class="text-xs font-bold uppercase tracking-widest text-emerald-400">Self</p>
+                        <h4 class="font-bold text-white">IG Post</h4>
+                    </div>
+                </a>
+
+                <div class="flex-shrink-0 w-8"></div>
+            </div>
+        </div>
+
+        <p class="text-slate-500 text-xs mt-4 italic flex items-center gap-2">
+            <i class="fas fa-arrow-right animate-pulse"></i> Swipe to see more edits
+        </p>
+    </div>
+</section>
+
+    <section id="academics" class="py-20 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-12 flex items-center gap-3">
+        <i class="fas fa-graduation-cap text-purple-400"></i> Academic Achievements
+    </h2>
+    
+    <div class="space-y-6">
+        <div class="flex flex-col md:flex-row md:items-center justify-between p-6 bg-slate-800/50 rounded-xl border border-slate-700 hover:border-purple-500 transition shadow-sm">
+            <div>
+                <h3 class="font-bold text-lg">B.Tech in AI & Data Science</h3>
+                <p class="text-slate-400 text-sm">Dhirajlal Gandhi College of Technology | CGPA: 3.9/4.0</p>
+            </div>
+            <span class="text-slate-500 text-sm italic mt-2 md:mt-0 px-3 py-1 bg-slate-900 rounded-full border border-slate-700 whitespace-nowrap">Expected 2028</span>
+        </div>
+
+        <div class="flex flex-col md:flex-row md:items-center justify-between p-6 bg-slate-800/50 rounded-xl border border-slate-700 hover:border-purple-500 transition shadow-sm">
+            <div>
+                <h3 class="font-bold text-lg">Higher Secondary Education (HSC)</h3>
+                <p class="text-slate-400 text-sm">Sri Vijay Vidhyashram Senior Secondary School | Percentage: 75%</p>
+            </div>
+            <span class="text-slate-500 text-sm italic mt-2 md:mt-0 px-3 py-1 bg-slate-900 rounded-full border border-slate-700 whitespace-nowrap">Completed 2024</span>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="py-20 bg-slate-900 border-t border-slate-800 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Let's Work Together</h2>
+            <p class="text-slate-400 mb-10 max-w-lg mx-auto">I'm currently looking for new opportunities in AI development and Web Design. Feel free to reach out via any platform below!</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=julietpooja05@gmail.com" target="_blank" class="p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:bg-blue-600/10 hover:border-blue-500 transition group">
+                    <i class="fas fa-envelope text-2xl text-blue-400 mb-3 block"></i>
+                    <span class="font-semibold block">Gmail</span>
+                    <span class="text-xs text-slate-500 truncate block">jagadeessuresh@gmail.com</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/jagadeeswaran-s-731b74312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:bg-blue-600/10 hover:border-blue-500 transition group">
+                    <i class="fab fa-linkedin text-2xl text-blue-400 mb-3 block"></i>
+                    <span class="font-semibold block">LinkedIn</span>
+                    <span class="text-xs text-slate-500 block">Jagadeeswaran S</span>
+                </a>
+
+                <a href="https://github.com/jagadeeswaran21" target="_blank" class="p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:bg-blue-600/10 hover:border-blue-500 transition group">
+                    <i class="fab fa-github text-2xl text-blue-400 mb-3 block"></i>
+                    <span class="font-semibold block">GitHub</span>
+                    <span class="text-xs text-slate-500 block">Jagadeeswaran S</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 Jagadeeswaran S. Built with code and caffeine.</p>
+    </footer>
+
+    <script>
+    function scrollContainer(id, direction) {
+        const container = document.getElementById(id);
+        if (!container) return; // Prevents errors if ID is misspelled
+
+        // OffsetWidth is the visible width of the container
+        const scrollAmount = container.offsetWidth; 
+        
+        if (direction === 'left') {
+            container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+        } else {
+            container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        }
+    }
+</script>
+
+</body>
+</html>
